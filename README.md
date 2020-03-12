@@ -53,6 +53,9 @@ The Luhn 10 algorithm has been implemented on both front-end and back-end to pro
 ## Technology overview
 
 Spring MVC has ben used to expose Rest Web Services (POST and GET in these case).
+
 All the data are stored into H2, which is an in-memory Database.
+
 React was used to create a single-page dynamic UI.
+
 Ajax JQuery to handle the REST requests from front-end to back-end.
