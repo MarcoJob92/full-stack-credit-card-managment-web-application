@@ -24,8 +24,8 @@ function App() {
 
   const handleInputChange = event => {
     let obj = {[event.target.name] : event.target.value};
-    const updatedTask = Object.assign(card, obj);
-    setCard({...updatedTask});
+    const updatedCard = Object.assign(card, obj);
+    setCard({...updatedCard});
   }
 
   const isFormValid = () => {
