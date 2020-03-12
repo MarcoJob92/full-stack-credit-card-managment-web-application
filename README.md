@@ -30,10 +30,12 @@ The Application should run on `http://localhost:3000/`.
 To get the Back-end App running locally:
 
 - Clone/Download the Java Spring/Maven project
-- You can import the project on your favorite IDE.
+- You can import the project on your favorite IDE:
    - On Eclipse: File -> Import -> Existing Maven Project
-   - Right Click on the directory and Run as Java Application
-- Another option is to create an executable jar.
+   - Right Click on the directory and Run as Maven install
+   - Then Run as Java Application
+- Another option is to create an executable jar:
+  - mvn install on pom.xml directory 
   - On CMD/Terminal: java -jar path/backend-credit-card-system-marco-furone-publicis-sapient/target/backend-credit-card-system-marco-furone-publicis-sapient-0.0.1-SNAPSHOT.jar
 
 Java Application should run on `http://localhost:8080/`.
