@@ -42,15 +42,17 @@ Java Application should run on `http://localhost:8080/`.
 
 This application allows to perform Create/Read operations.
 
-Users can add new Credit Cards in the System and each credit card has 3 attributes: User Name, Card Number, withdrawal Limit.
+Users can add new Credit Cards to the System and each credit card has 3 attributes: User Name, Card Number, withdrawal Limit.
 The User will then be able to view the added credit cards as a list in a table.
 
-The Application allows to insert 16 to 19 digit card numbers, and also allows users to write such numbers in full or by writing the digits separated by spaces or dashes. It will be then the App to elaborate and format the card's numbers.
-All the Card Numbers must work against the Luhn 10 algorithm, otherwise validation errors will displayed.
+The Application allows to insert 16 to 19 digit card numbers and also allows users to write such numbers in full or by writing the digits separated by spaces or dashes. It will be then the App to elaborate and format the card's numbers.
+All the Card Numbers must work against the Luhn 10 algorithm, otherwise validation errors will be displayed.
+
+The Luhn 10 algorithm has been implemented on both front-end and back-end to provide a more secure application.
 
 ## Technology overview
 
 Spring MVC has ben used to expose Rest Web Services (POST and GET in these case).
 All the data are stored into H2, which is an in-memory Database.
-React was used to create a dynamic UI.
+React was used to create a single-page dynamic UI.
 Ajax JQuery to handle the REST requests from front-end to back-end.
