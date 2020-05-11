@@ -27,8 +27,8 @@ import org.assertj.core.util.Lists;
 
 public class CreditCardServiceIntegrationTests {
 	
-	@Autowired
-	CreditCardController controller;
+    @Autowired
+    CreditCardController controller;
 
     MockMvc mockMvc;
 
